@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulate Letters</title>
+    <style>
+        .letter {
+            display: inline-block;
+            padding: 5px;
+            cursor: pointer;
+        }
+        .selected {
+            background-color: yellow;
+        }
+        #container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #text-display {
+            margin-top: 20px;
+            /* border: 1px solid black;
+            padding: 10px;
+            min-height: 50px;
+            width: 300px;
+            position: relative; */
+        }
+        .highlight-rect {
+            position: absolute;
+            border: 1px dashed black;
+            background-color: rgba(0, 0, 255, 0.2);
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="form">
+            <input type="text" id="inputText" placeholder="Enter text" />
+            <button id="displayText">Ok</button>
+        </div>
+        <div id="text-display"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

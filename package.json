@@ -1,0 +1,16 @@
+{
+  "name": "dev-3",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://HelenaUa.github.io/dev-3",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
